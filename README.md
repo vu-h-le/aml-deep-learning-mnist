@@ -1,1 +1,1 @@
-# aml-deep-learning-mnist
+# Azure Machine Learning example using Keras to create a convolutional neural net to recognize digits from the MNIST dataset.
