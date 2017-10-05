@@ -16,8 +16,6 @@ dependencies:
   # The python interpreter version.
   # Currently Azure ML Workbench only supports 3.5.2.
   - python=3.5.2
-  - pandas
-  - tensorflow
 
   # Required for Jupyter Notebooks.
   - ipykernel=4.6.1
@@ -26,6 +24,12 @@ dependencies:
   # - tensorflow-gpu
 
   - pip:
+    - tensorflow
+    - keras
+    - Pillow
+    - h5py
+    - opencv-python
+    - numpy 
     # The API for Azure Machine Learning Model Management Service.
     # Details: https://github.com/Azure/Machine-Learning-Operationalization
     - azure-ml-api-sdk==0.1.0a10
