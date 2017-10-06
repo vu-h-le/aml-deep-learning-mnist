@@ -1,0 +1,8 @@
+address: 52.183.40.150
+baseDockerImage: microsoft/mmlspark:plus-gpu-0.7.91
+nativeSharedDirectory: ~/.azureml/share/
+password: AzureMlSecret=DSVM-Ubuntu-GPU#vule#28fd576d0a174a45bfe826a6fbb0c751
+sharedVolumes: true
+type: remotedocker
+username: vule
+nvidiaDocker: true

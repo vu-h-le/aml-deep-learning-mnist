@@ -1,0 +1,10 @@
+ArgumentVector:
+- $file
+CondaDependenciesFile: aml_config/conda_dependencies_gpu.yml
+EnvironmentVariables: null
+Framework: Python
+PrepareEnvironment: false
+SparkDependenciesFile: aml_config/spark_dependencies.yml
+Target: DSVM-Ubuntu-GPU
+TrackedRun: true
+UseSampling: true

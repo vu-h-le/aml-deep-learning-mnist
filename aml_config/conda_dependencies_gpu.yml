@@ -24,7 +24,7 @@ dependencies:
   # - tensorflow-gpu
 
   - pip:
-    - tensorflow
+    - tensorflow-gpu
     - keras
     - Pillow
     - h5py
