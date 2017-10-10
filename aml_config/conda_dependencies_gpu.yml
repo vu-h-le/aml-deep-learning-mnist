@@ -21,15 +21,13 @@ dependencies:
   - ipykernel=4.6.1
   
   # GPU version of tensorflow
-  # - tensorflow-gpu
+  - tensorflow-gpu
+  - keras
+  - Pillow
+  - h5py
+  - numpy 
 
   - pip:
-    - tensorflow-gpu
-    - keras
-    - Pillow
-    - h5py
-    - opencv-python
-    - numpy 
     # The API for Azure Machine Learning Model Management Service.
     # Details: https://github.com/Azure/Machine-Learning-Operationalization
     - azure-ml-api-sdk==0.1.0a10

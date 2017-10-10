@@ -16,11 +16,15 @@ run_logger = get_azureml_logger()
 
 # create the outputs folder where we will save the model file later
 os.makedirs('./outputs', exist_ok=True)
-
+os.listdir()
 img_width, img_height = 28, 28
 
 train_data_dir = '/tmp/data/mnist_png/training'
 validation_data_dir = '/tmp/data/mnist_png/testing'
+
+os.getcwd()
+os.listdir(train_data_dir)
+os.listdir(validation_data_dir)
 
 num_training_samples = 60000
 num_validation_samples = 10000
