@@ -1,8 +1,8 @@
 address: vhl-dsvm-ubuntu.westus2.cloudapp.azure.com
 baseDockerImage: microsoft/mmlspark:plus-gpu-0.7.91
-nativeSharedDirectory: ~/.azureml/share/
+type: remotedocker
+nvidiaDocker: true
+username: vule
 password: AzureMlSecret=DSVM-Ubuntu-GPU#vule#78005bc3f86b41ca9304cec11f7f4534
 sharedVolumes: true
-type: remotedocker
-username: vule
-nvidiaDocker: true
+nativeSharedDirectory: "/tmp/"

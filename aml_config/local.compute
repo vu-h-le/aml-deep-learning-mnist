@@ -1,4 +1,4 @@
 type: "local"
 pythonLocation: "python"
 sparkSubmitLocation: "spark-submit"
-#nativeSharedDirectory: "~/.azureml/share/"
+nativeSharedDirectory: "/tmp/"

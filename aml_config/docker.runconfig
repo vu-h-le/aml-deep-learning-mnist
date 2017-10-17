@@ -6,5 +6,5 @@ EnvironmentVariables:
 Framework: "Python"
 CondaDependenciesFile: "aml_config/conda_dependencies.yml"
 SparkDependenciesFile: "aml_config/spark_dependencies.yml"
-PrepareEnvironment: true
+PrepareEnvironment: false
 TrackedRun: true
